@@ -15,7 +15,7 @@ namespace LocalIpFounder
 
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
-            Console.Title = "LIF 1.0.2";
+            Console.Title = "LIF 1.0.0.2";
             Console.WriteLine("LOCAL IP FOUNDER.   ");
             Console.WriteLine("Use \"help\" to see commands. ");
             while (true)
@@ -52,7 +52,7 @@ namespace LocalIpFounder
                 }
                 if (cmd == "version")
                 {
-                    Console.WriteLine("Build Version: "+BuildVersion);
+                    Console.WriteLine("Build Version: "+Console.Title);
                 }
             }
         }
